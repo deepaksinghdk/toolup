@@ -1,0 +1,33 @@
+.text-purple{
+    color:#743089 !important;
+}
+.text-light{
+    color:#fff !important;
+}
+.uk-button-primary {
+    background-color: #743089 !important;
+}
+html {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    scrollbar-width: none; /* For Firefox */
+}
+
+html::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Edge */
+}
+
+
+@media(max-width:980px){
+    .cards{
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .08);
+    }
+    .navbar{
+        padding: 24px 12px;;
+    }
+}
+@media(min-width:980px){
+    .navbar{
+        padding: 24px 0;
+    }
+}
